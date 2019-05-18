@@ -27,3 +27,4 @@ _testmain.go
 /debug
 .DS_Store
 bitleo.top*
+build*

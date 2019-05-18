@@ -34,7 +34,7 @@
             },
             error: function (error) { 
                 $this.html($this.data('original-text'));
-                alert(error); 
+                alert("covert failed");
             },
             url: '/pdfconverttoword/convert', /*设置post提交到的页面*/
             type: "post", /*设置表单以post方法提交*/
